@@ -23,7 +23,8 @@ class Square:
     @property
     def position(self):
         """Get / Set the current square position"""
-        
+        return self.__position
+    
     @size.setter
     def size(self, value):
         if not isinstance(value, int):
