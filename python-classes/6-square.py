@@ -5,7 +5,7 @@
 class Square:
     """This class defines a square"""
 
-    def __init__(self, size=0):
+    def __init__(self, size=0, position=(0, 0)):
         """Private instance attribute named size"""
         
         if not isinstance(size, int):
