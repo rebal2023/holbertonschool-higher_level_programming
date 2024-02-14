@@ -50,16 +50,6 @@ class Rectangle:
         if self.__width == 0 or self.__height == 0:
             return (0)
         return (self.__width*2) + (self.__height*2)
-    
-    def __str__(self):
-        rectangle = ""
-        if self.__height == 0 or self.__width == 0:
-            return rectangle
-        for i in range(self.__height):
-            rectangle += (str(self.print_symbol) * self.__width)
-            if i != self.__height - 1:
-                rectangle += '\n'
-        return rectangle
 
     @staticmethod
     def bigger_or_equal(rect_1, rect_2):
