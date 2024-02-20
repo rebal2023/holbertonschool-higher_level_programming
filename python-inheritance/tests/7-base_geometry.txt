@@ -1,7 +1,5 @@
 >>> BaseGeometry = __import__('7-base_geometry').BaseGeometry
 
-Testing integer_validator method:
-
 Test1:
     >>> bg.__class__.integer_validator()
     Traceback (most recent call last):
