@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 """Define Rectangle class"""
-BaseGeometry = __import__('7-base_geometry').BaseGeometry
+Rectangle = __import__('7-base_geometry').Rectangle
 
 
-class Rectangle(BaseGeometry):
+class Square(Rectangle):
     """Subclass representing a rectangle"""
 
     def __init__(self, size):
