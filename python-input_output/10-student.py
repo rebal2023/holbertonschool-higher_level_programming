@@ -3,7 +3,7 @@
 
 
 class Student:
-    """"""Class Student that defines a student by first_name , last_name & age"""
+    """Class Student that defines a student by first_name , last_name & age"""
 
     def __init__(self, first_name, last_name, age):
         """Create new student"""
