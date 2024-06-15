@@ -1,4 +1,4 @@
- document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener('DOMContentLoaded', function () {
     document.getElementById('btn_translate').addEventListener('click', function () {
         const languageCode = document.getElementById('language_code').value;
         
