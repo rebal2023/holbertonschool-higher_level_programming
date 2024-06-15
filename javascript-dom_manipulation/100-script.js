@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function () {
+ document.addEventListener('DOMContentLoaded', function () {
     // Select the relevant DOM elements
     const addItem = document.getElementById('add_item');
     const removeItem = document.getElementById('remove_item');
